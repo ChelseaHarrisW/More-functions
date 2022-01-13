@@ -159,20 +159,41 @@ console.log(sentance);
 
 // Goal: find fish catching chances and returns true of false
 // there is no input needed,
-const catching = () => {
-  let catchRate = Math.random() * 3; //not sure if this is correct
-  if (0 < catchRate < 1) {
-    return console.log(" Sven hooked a tuna!  :)");
-  } else {
-    return console.log("Sven came up empty-handed.  :(");
-  }
-return catchRate 
-}
+// const catching = () => {
+//   let catchRate = Math.random() * 3; //not sure if this is correct
+//   if (0 < catchRate < 1) {
+//     return console.log(" Sven hooked a tuna!  :)");
+//   } else {
+//     return console.log("Sven came up empty-handed.  :(");
+//   }
 
-console.log(catchRate)
+// } 
+//======================================================
 
-// fast food (multiple parameters)
+//Algorithmic thinking pracice
 
-//write a function that returns an object to represent a fastfood order
+//Higher Order functions are functions that accept a function as a parameter 
+//to use for their own porpose:
 
-const takeOutBag = orderMeal("Ultimate Slammer", "Fudge sundae", "Mr. Pepper", "Potato wedges")
+// 1 Defining chores////////////////////////////////
+
+// define 6 function that takes 1 paramater which is an object that reflects a 
+// firstName, and LastName
+  //if the object represents "donald" "McLelland"
+    //display "Donald McLelland went to the grocery store"
+    // or "Donald McLelland got the engine oil changed"
+
+/// 2 lazy Day////////////////////////////////
+
+
+// define a function that accepts 3 parameters 
+// param 1. chore param2. person param 3. day param
+
+//return value should be a string that represents the ${person} did ${chore} on ${day}
+
+// 3 busy day////////////////////////////////
+
+// higher order functio should accept 5 params.
+// first should be 3 f(x) followed by a person object then a string for the day 
+// inside of this function invoke the 3 functions 
+//last format the return value of the function to read the format provided in the chapter
